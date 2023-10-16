@@ -1,0 +1,18 @@
+[package]
+name = "pbft"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1"
+futures = "0.3"
+actix-web = "4.4.0"
+actix-rt = "2.9.0"
+reqwest = "0.11.20"
+tokio = "1.32.0"
+parking_lot = "0.12.1"
+lazy_static = "1.4.0"
+dotenv = "0.15.0"
